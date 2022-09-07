@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+input {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid teal;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+label {
+  font-weight: 700;
+}
+
+.btn {
+  color: white;
+  background-color: rgba(256, 256, 256, 0);
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: teal;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
